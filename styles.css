@@ -34,10 +34,22 @@ h1 {
 }
 
 input {
-  font-size: 36px;
+  font-size: 24px;
   color: #5997b0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
+p {
+  width: 80%;
+  max-width: 600px; /* Add this line to set the maximum width */
+  font-size: 24px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #5997b0;
+  height: 40px;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
 
