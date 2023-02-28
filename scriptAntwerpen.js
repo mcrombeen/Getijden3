@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
               key = 'm TAW ';
               value += ' mtr';
             }
-            const listItem = document.createElement('li');
+            const listItem = document.createElement('p');
             listItem.textContent = `${key}: ${value}`;
             dataElement.appendChild(listItem);
             dataElement.appendChild(document.createElement('br'));
