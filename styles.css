@@ -34,7 +34,11 @@ h1 {
 }
 
 input {
+  width: 80%;
+  max-width: 600px; /* Add this line to set the maximum width */
   font-size: 24px;
+  width: 80%;
+  max-width: 600px; /* Add this line to set the maximum width */
   color: #5997b0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -51,5 +55,6 @@ p {
   height: 40px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
