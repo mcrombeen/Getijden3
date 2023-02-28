@@ -67,7 +67,8 @@ li {
   border-radius: 10px;
   background-color: #5997b0;
   height: 40px;
-  display: block
+  display: block;
+  line-height: 40px;
   
   font-family: 'Roboto', sans-serif;
   text-align: center;
