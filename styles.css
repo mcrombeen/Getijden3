@@ -61,7 +61,7 @@ p {
 li {
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   color: white;
   border-radius: 10px;
@@ -75,6 +75,8 @@ li {
 ul {
   
   list-style-type: none;
+  width: 80%;
+  max-width: 600px; /* Add this line to set the maximum width */
   padding: 0;
   margin: 10;
 }
