@@ -67,7 +67,7 @@ li {
   border-radius: 10px;
   background-color: #5997b0;
   height: 40px;
-  margin-bottom: 15px;
+  
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
@@ -78,6 +78,6 @@ ul {
   width: 60vh;
   max-width: 600px; /* Add this line to set the maximum width */
   padding: 0;
-  margin: 10;
+  
   align-items: center;
 }
