@@ -45,7 +45,8 @@ input {
   color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  border-color: blue;
+  border-color: #f5ce179e;
+  box-shadow: 0 0 5px 20px rgba(245, 206, 23, 0.62);
   
 }
 
