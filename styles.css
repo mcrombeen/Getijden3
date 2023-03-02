@@ -70,6 +70,7 @@ h2 {
   max-width: 600px; /* Add this line to set the maximum width */
   font-size: 30px;
   border: 2px solid black;
+  border-padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
