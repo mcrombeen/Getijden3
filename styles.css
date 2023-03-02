@@ -69,9 +69,11 @@ h2 {
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
   font-size:30px;
-  border: none;
-  color: 333333;
+  border: 2px solid black;
+  border-padding: 5px;
   border-radius: 10px;
+  color: 333333;
+  
   background-color: #F5F5F5;
   height: 36px;
   margin-bottom:0px;
