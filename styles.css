@@ -38,7 +38,7 @@ h1 {
 
 input {
   width: 80%;
-  max-width: 300px; /* Add this line to set the maximum width */
+  max-width: 100px; /* Add this line to set the maximum width */
   font-size: 18px;
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
