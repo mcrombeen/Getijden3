@@ -46,14 +46,15 @@ input {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   border-color: #f5ce179e;
-  box-shadow: 0 0 5px 20px rgba(245, 206, 23, 0.62);
+  box-shadow: 0 0 5px 10px rgba(245, 206, 23, 0.62);
+  border-radius: 10px;
   
 }
 
 p {
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
-  font-size: 24px;
+  font-size: 20px;
   border: none;
   color: 333333;
   border-radius: 10px;
