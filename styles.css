@@ -104,7 +104,7 @@ ul {
   border-padding: 5px;
   border-radius: 10px;
   max-width: 600px; /* Add this line to set the maximum width */
-  padding: 0;
+  padding: 10px;
   margin-top: 5px;
   
   align-items: center;
