@@ -70,9 +70,8 @@ h2 {
   width: 80%;
   max-width: 800px; /* Add this line to set the maximum width */
   font-size: 24px;
-  box-shadow: 0 0 5px 10px rgba(245, 206, 23, 0.62);
-  box-width: 70%;
-  border-radius: 10px;
+  
+  
   color: 333333;
   padding: 5px;
   background-color: #fee4de1a;
