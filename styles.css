@@ -44,7 +44,7 @@ input {
   color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  border-color: #f5ce179e;
+  border-color: rgb(245 84 23 / 62%);
   box-shadow: 0 0 5px 10px rgb(245 84 23 / 62%);
   border-radius: 10px;
   margin-bottom: 5px;
@@ -99,7 +99,7 @@ ul {
   
   list-style-type: none;
   width: 70%;
-  border: 2px solid rgb(245 84 23 / 62%);
+  border: 2px solid rgba(245, 206, 23, 0.62);
   box-shadow: 0 0 5px 10px rgba(245, 206, 23, 0.62);
   
   border-radius: 10px;
