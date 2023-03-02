@@ -91,7 +91,7 @@ li {
   height: 40px;
   display: block;
   line-height: 40px;
-  box-shadow: 0 0 5px 10px rgb(245 84 23 / 62%);
+  
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
@@ -101,6 +101,7 @@ ul {
   list-style-type: none;
   width: 70%;
   border: 2px solid black;
+  box-shadow: 0 0 5px 10px rgb(245 84 23 / 62%);
   
   border-radius: 10px;
   max-width: 600px; /* Add this line to set the maximum width */
