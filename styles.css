@@ -29,9 +29,11 @@ button {
 
 h1 {
   font-size: 48px;
-  color: #5997b0;
+  color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -40,9 +42,10 @@ input {
   font-size: 24px;
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
-  color: #5997b0;
+  color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  
 }
 
 p {
