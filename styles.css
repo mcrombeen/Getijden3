@@ -37,8 +37,8 @@ h1 {
 }
 
 input {
-  width: 80%;
-  max-width: 100px; /* Add this line to set the maximum width */
+  width: 150px;
+  max-width: 300px; /* Add this line to set the maximum width */
   font-size: 18px;
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
@@ -48,6 +48,7 @@ input {
   border-color: #f5ce179e;
   box-shadow: 0 0 5px 10px rgba(245, 206, 23, 0.62);
   border-radius: 10px;
+  margin-bottom: 5px;
   
 }
 
