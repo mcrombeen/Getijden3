@@ -40,8 +40,7 @@ input {
   width: 150px;
   max-width: 300px; /* Add this line to set the maximum width */
   font-size: 18px;
-  width: 80%;
-  max-width: 600px; /* Add this line to set the maximum width */
+  
   color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
