@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #F5F5F5;
+  background-color: #f5541714;
 }
 
 .container {
@@ -41,7 +41,7 @@ input {
   width: 200px;
   max-width: 300px; /* Add this line to set the maximum width */
   font-size: 18px;
-  
+  background-color: #f5541714;
   color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -59,7 +59,7 @@ p {
   border: none;
   color: 333333;
   border-radius: 10px;
-  background-color: #F5F5F5;
+  background-color: #f5541714;
   height: 36px;
   margin-bottom: 5px;
   font-family: 'Roboto', sans-serif;
@@ -73,7 +73,7 @@ h2 {
   
   color: 333333;
   padding: 5px;
-  background-color: #F5F5F5;
+  background-color: #f5541714;
   height: 36px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
