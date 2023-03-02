@@ -68,11 +68,11 @@ p {
 h2 {
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
-  font-size:30px;
+  font-size: 30px;
   border: 2px solid black;
-  border-padding: 5px;
+  padding: 10px;
   border-radius: 10px;
-  border-width: 200px;
+  
   color: 333333;
   
   background-color: #F5F5F5;
