@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   margin-top: 20px;
+  background-color: #f5541714;
 }
 
 button {
@@ -101,7 +102,7 @@ ul {
   width: 80%;
   border: 2px solid rgba(245, 206, 23, 0.62);
   box-shadow: 0 0 5px 10px rgba(245, 206, 23, 0.62);
-  
+  background-color: #fafd9645;
   border-radius: 10px;
   max-width: 600px; /* Add this line to set the maximum width */
   padding: 10px;
