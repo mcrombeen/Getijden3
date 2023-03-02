@@ -99,7 +99,8 @@ li {
 ul {
   
   list-style-type: none;
-  width: 80%;
+  width: 70%;
+  border: 2px;
   max-width: 600px; /* Add this line to set the maximum width */
   padding: 0;
   margin-top: 5px;
