@@ -66,7 +66,7 @@ p {
 }
 
 h2 {
-  width: 200px;
+  width: 60%;
   max-width: 600px; /* Add this line to set the maximum width */
   font-size: 30px;
   border: 2px solid black;
