@@ -53,7 +53,7 @@ p {
   max-width: 600px; /* Add this line to set the maximum width */
   font-size: 24px;
   border: none;
-  color: white;
+  color: 333333;
   border-radius: 10px;
   background-color: #F5F5F5;
   height: 40px;
