@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
   datePicker.addEventListener('input', function() {
-    xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/getijden/main/Antwerpen_Februari.json`);
+    xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/getijden/main/csvjson.json`);
     xhr.onload = function() {
       if (xhr.status === 200) {
         const data = JSON.parse(xhr.responseText);
