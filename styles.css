@@ -28,6 +28,10 @@ button {
   font-family: 'Armata', sans-serif;
 }
 
+button:hover {
+  filter: brightness(100%); /* makes the button 100% grayscale */
+}
+
 h1 {
   font-size: 40px;
   color: #333333;
