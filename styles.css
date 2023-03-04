@@ -56,6 +56,7 @@ input {
   margin-bottom: 5px;
   border-style: none;
   animation: strobe 6s infinite, pulse 1s infinite;
+  placeholder="---->>";
   
 }
 
