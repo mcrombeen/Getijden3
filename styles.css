@@ -24,6 +24,7 @@ button {
   border-radius: 10px;
   background-color: #333333e3;
   height: 60px;
+  brightness(50%);
   margin-bottom: 15px;
   font-family: 'Armata', sans-serif;
 }
