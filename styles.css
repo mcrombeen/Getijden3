@@ -62,12 +62,15 @@ input {
 @keyframes strobe {
   0% {
     box-shadow: 0 0 5px 5px #bae7ed;
+    content: "-->>";
   }
   50% {
     box-shadow: 0 0 5px 5px #ffffff;
+    content: "-->>";
   }
   100% {
     box-shadow: 0 0 5px 5px #bae7ed;
+    content: "-->>";
   }
 }
 
