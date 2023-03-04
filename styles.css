@@ -55,7 +55,20 @@ input {
   border-radius: 10px;
   margin-bottom: 5px;
   border-color: #333333e3;
+  animation: strobe 0.5s infinite;
   
+}
+
+@keyframes strobe {
+  0% {
+    background-color: #fee4de1a;
+  }
+  50% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: #fee4de1a;
+  }
 }
 
 p {
