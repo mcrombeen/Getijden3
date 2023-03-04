@@ -54,7 +54,7 @@ input {
   box-shadow: 0 0 5px 5px #bae7ed;
   border-radius: 10px;
   margin-bottom: 5px;
-  
+  border-style: none;
   animation: strobe 1s infinite;
   
 }
