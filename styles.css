@@ -61,13 +61,13 @@ input {
 
 @keyframes strobe {
   0% {
-    border-color: #333333e3;
+    box-color: #333333e3;
   }
   50% {
-    border-color: #ffffff;
+    box-color: #ffffff;
   }
   100% {
-    border-color: #333333e3;
+    box-color: #333333e3;
   }
 }
 
