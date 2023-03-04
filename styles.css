@@ -54,20 +54,20 @@ input {
   box-shadow: 0 0 5px 5px #bae7ed;
   border-radius: 10px;
   margin-bottom: 5px;
-  border-color: #333333e3;
+  border-color: #;
   animation: strobe 0.5s infinite;
   
 }
 
 @keyframes strobe {
   0% {
-    background-color: #fee4de1a;
+    border-color: #333333e3;
   }
   50% {
-    background-color: #ffffff;
+    border-color: #ffffff;
   }
   100% {
-    background-color: #fee4de1a;
+    border-color: #333333e3;
   }
 }
 
