@@ -35,6 +35,7 @@ h1 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0px;
+  
 }
 
 input {
@@ -70,6 +71,7 @@ h2 {
   width: 80%;
   max-width: 800px; /* Add this line to set the maximum width */
   font-size: 24px;
+  font-weight: normal;
   
   
   color: 333333;
@@ -88,7 +90,7 @@ li {
   border: none;
   color: white;
   border-radius: 10px;
-  background-color: #6a0101;
+  background-color: #333333
   height: 40px;
   display: block;
   line-height: 40px;
@@ -101,7 +103,6 @@ ul {
   
   list-style-type: none;
   width: 80%;
-  border: 2px solid rgba(245, 206, 23, 0.62);
   background-color: #fee4de1a;
   border-radius: 10px;
   max-width: 600px; /* Add this line to set the maximum width */
