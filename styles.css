@@ -55,7 +55,7 @@ input {
   border-radius: 10px;
   margin-bottom: 5px;
   border-style: none;
-  animation: strobe 3s infinite 10s;
+  animation: strobe 3s 5;
   }
 
 @keyframes strobe {
