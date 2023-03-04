@@ -82,8 +82,7 @@ input {
   }
 }*/
 
-input:valid {
-  display: none;}
+
 
 p {
   width: 80%;
