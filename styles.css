@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   background-color: #fee4de1a;
 }
 
@@ -25,13 +25,13 @@ button {
   background-color: #333333e3;
   height: 60px;
   margin-bottom: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
 }
 
 h1 {
   font-size: 40px;
   color: #333333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -44,7 +44,7 @@ input {
   font-size: 18px;
   background-color: #fee4de1a;
   color: #333333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   text-align: center;
   box-shadow: 0 0 5px 5px #bbc416e6;
   border-radius: 10px;
@@ -63,7 +63,7 @@ p {
   background-color: #fee4de1a;
   height: 36px;
   margin-bottom: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   text-align: center;
 }
 
@@ -79,7 +79,7 @@ h2 {
   background-color: #fee4de1a;
   height: 36px;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   text-align: center;
 }
 
@@ -95,7 +95,7 @@ li {
   display: block;
   line-height: 40px;
   
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Armata';
   text-align: center;
 }
 
