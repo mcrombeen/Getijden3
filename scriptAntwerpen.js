@@ -39,19 +39,19 @@ document.addEventListener('DOMContentLoaded', function() {
               value += ' hr';
             }
             else if (key === 'm TAW') {
-              key = 'm TAW ';
+              key = 'HW1 m TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__1') {
-              key = 'm TAW ';
+              key = 'LW1 m TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__2') {
-              key = 'm TAW ';
+              key = 'HW2 m TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__3') {
-              key = 'm TAW ';
+              key = 'LW2 m TAW ';
               value += ' mtr';
             }
             const listItem = document.createElement('li');
