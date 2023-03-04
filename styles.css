@@ -72,8 +72,7 @@ h2 {
   max-width: 800px; /* Add this line to set the maximum width */
   font-size: 28px;
   font-weight: normal;
-  
-  
+  white-space: nowrap;
   color: 333333;
   padding: 5px;
   background-color: #fee4de1a;
