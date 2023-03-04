@@ -77,12 +77,15 @@ input {
 @keyframes pulse {
   0% {
     transform: scale(1);
+    content: "-->>";
   }
   50% {
     transform: scale(1.2);
+    content: "-->>";
   }
   100% {
     transform: scale(1);
+    content: "-->>";
   }
 }
 
