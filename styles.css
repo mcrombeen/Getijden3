@@ -20,9 +20,9 @@ button {
   max-width: 600px; /* Add this line to set the maximum width */
   font-size: 36px;
   border: none;
-  color: white;
+  color: #fee4de1a;
   border-radius: 10px;
-  background-color: #5997b0;
+  background-color: #333333e3;
   height: 60px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
@@ -34,7 +34,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   
 }
 
@@ -88,7 +88,7 @@ li {
   max-width: 600px; /* Add this line to set the maximum width */
   font-size: 18px;
   border: none;
-  color: white;
+  color: #fee4de1a;
   border-radius: 10px;
   background-color: #333333e3;
   height: 40px;
