@@ -101,12 +101,12 @@ li {
   
   font-family: 'Armata', sans-serif;
   text-align: center;
-  transition: color 0.2s ease; /* adds a smooth transition effect */
+  transition: brightness 0.2s ease; /* adds a smooth transition effect */
 
 }
 
 li:hover {
-  color: #fee4de1a; /* changes the text color to blue */
+ filter: brightness(150%)
 }
 
 
