@@ -46,8 +46,7 @@ input {
   color: #333333;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  border-color: rgb(245 84 23 / 62%);
-  box-shadow: 0 0 5px 5px rgb(245 84 23 / 62%);
+  box-shadow: 0 0 5px 5px #bbc416e6;
   border-radius: 10px;
   margin-bottom: 5px;
   
