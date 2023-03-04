@@ -55,7 +55,7 @@ input {
   border-radius: 10px;
   margin-bottom: 5px;
   border-style: none;
-  animation: strobe 6s infinite, pulse 2s 2 infinite 10s;
+  animation: strobe 6s infinite, pulse 2s infinite 10s;
   
   
 }
