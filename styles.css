@@ -49,6 +49,7 @@ input {
   box-shadow: 0 0 5px 5px #bbc416e6;
   border-radius: 10px;
   margin-bottom: 5px;
+  border-color: #333333e3;
   
 }
 
@@ -89,7 +90,7 @@ li {
   border: none;
   color: white;
   border-radius: 10px;
-  background-color: #3b306eed;
+  background-color: #333333e3;
   height: 40px;
   display: block;
   line-height: 40px;
