@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
               value += ' hr';
             }
             else if (key === 'm TAW') {
-              key = 'HW 1 TAW ';
+              key = 'HW 1 m TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__1') {
