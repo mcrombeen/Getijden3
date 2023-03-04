@@ -101,7 +101,7 @@ li {
   
   font-family: 'Armata', sans-serif;
   text-align: center;
-  transition: color 0.2s ease, color 0.2s ease; /* adds a smooth transition effect */
+  transition: color 0.2s ease; /* adds a smooth transition effect */
 
 }
 
