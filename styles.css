@@ -55,7 +55,7 @@ input {
   border-radius: 10px;
   margin-bottom: 5px;
   border-style: none;
-  animation: strobe 6s infinite;
+  animation: strobe 6s infinite, pulse 1s infinite;
   
 }
 
@@ -68,6 +68,18 @@ input {
   }
   100% {
     box-shadow: 0 0 5px 5px #bae7ed;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
