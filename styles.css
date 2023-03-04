@@ -56,7 +56,7 @@ input {
 p {
   width: 80%;
   max-width: 600px; /* Add this line to set the maximum width */
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   color: 333333;
   border-radius: 10px;
