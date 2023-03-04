@@ -102,8 +102,7 @@ ul {
   list-style-type: none;
   width: 80%;
   border: 2px solid rgba(245, 206, 23, 0.62);
-  box-shadow: 0 0 5px 8px rgba(245, 206, 23, 0.62);
-  background-color: #fafd9645;
+  background-color: #fee4de1a;
   border-radius: 10px;
   max-width: 600px; /* Add this line to set the maximum width */
   padding: 10px;
