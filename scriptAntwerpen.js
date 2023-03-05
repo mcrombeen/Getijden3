@@ -4,6 +4,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
+  const datePickerButton = document.getElementById('datePickerButton');
+    
+  // Show the datepicker when the button is clicked
+        datePickerButton.addEventListener('click', function() {
+          datePicker.style.display = "inline-block";
+          datePicker.focus();
+        });
+    
   datePicker.addEventListener('input', function() {
     xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/Getijden3/main/antwerpen23TAW.json`);
     xhr.onload = function() {
