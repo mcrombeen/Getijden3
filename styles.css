@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Armata', sans-serif;
   background-color: #fee4de1a;
+  flex-grow: 1;
 }
 
 .container {
