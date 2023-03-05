@@ -1,12 +1,18 @@
+    
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
-  datePicker.addEventListener('input', function() {
+  const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
+
+  function displayDataForSelectedDate(selectedDate) {
     xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/Getijden3/main/antwerpen23TAW.json`);
     xhr.onload = function() {
       if (xhr.status === 200) {
         const data = JSON.parse(xhr.responseText);
-        const selectedDate = new Date(datePicker.value);
         const currentDate = selectedDate.toLocaleDateString({month: 'long'});
         const currentDay = selectedDate.toLocaleDateString('nl-NL', {weekday: 'long'});
         const currentData = data.find(obj => {
@@ -65,15 +71,16 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
     xhr.send();
+  }
+
+  displayDataForSelectedDate(today);
+
+  datePicker.addEventListener('input', function() {
+    const selectedDate = new Date(datePicker.value);
+    displayDataForSelectedDate(selectedDate);
     console.log(datePicker.value);
   });
 });
-
-
-
-
-
-
 
 
 
