@@ -1,23 +1,21 @@
     
 
 
+    
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
-  const datePickerButton = document.getElementById('datePickerButton');
-    
-  // Show the datepicker when the button is clicked
-        datePickerButton.addEventListener('click', function() {
-          datePicker.style.display = "inline-block";
-          datePicker.focus();
-        });
-    
-  datePicker.addEventListener('input', function() {
+  const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
+
+  function displayDataForSelectedDate(selectedDate) {
     xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/Getijden3/main/antwerpen23TAW.json`);
     xhr.onload = function() {
       if (xhr.status === 200) {
         const data = JSON.parse(xhr.responseText);
-        const selectedDate = new Date(datePicker.value);
         const currentDate = selectedDate.toLocaleDateString({month: 'long'});
         const currentDay = selectedDate.toLocaleDateString('nl-NL', {weekday: 'long'});
         const currentData = data.find(obj => {
@@ -76,15 +74,16 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
     xhr.send();
+  }
+
+  displayDataForSelectedDate(today);
+
+  datePicker.addEventListener('input', function() {
+    const selectedDate = new Date(datePicker.value);
+    displayDataForSelectedDate(selectedDate);
+    console.log(datePicker.value);
   });
-
-  // Set default date to current date
-  const today = new Date();
-  const todayStr = today.toISOString().substr(0, 10);
-  datePicker.value = todayStr;
-
-  // Trigger input event for default date
-  const event = new Event('input');
-  event.simulated = true;
-  datePicker.dispatchEvent(event);
 });
+
+
+
