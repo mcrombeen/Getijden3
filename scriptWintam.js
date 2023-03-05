@@ -39,19 +39,19 @@
               value += ' hr';
             }
             else if (key === 'm TAW') {
-              key = 'HW 1  ';
+              key = 'HW 1 : ';
               value += ' mtr TAW';
             }
             else if (key === 'm TAW__1') {
-              key = 'LW 1  ';
+              key = 'LW 1 : ';
               value += ' mtr TAW';
             }
             else if (key === 'm TAW__2') {
-              key = 'HW 2  ';
+              key = 'HW 2 : ';
               value += ' mtr TAW';
             }
             else if (key === 'm TAW__3') {
-              key = 'LW 2  ';
+              key = 'LW 2 : ';
               value += ' mtr TAW';
             }
             const listItem = document.createElement('li');
