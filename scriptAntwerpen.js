@@ -1,4 +1,4 @@
-  document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
   datePicker.addEventListener('input', function() {
@@ -65,10 +65,18 @@
       }
     };
     xhr.send();
-    console.log(datePicker.value);
   });
-});
 
+  // Set default date to current date
+  const today = new Date();
+  const todayStr = today.toISOString().substr(0, 10);
+  datePicker.value = todayStr;
+
+  // Trigger input event for default date
+  const event = new Event('input');
+  event.simulated = true;
+  datePicker.dispatchEvent(event);
+});
 
 
 
