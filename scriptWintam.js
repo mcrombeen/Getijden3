@@ -23,39 +23,39 @@
           if (key !== 'Date') {
             let value = currentData[key];
             if (key === 'HW1') {
-              key = 'Eerste Hoogwater ';
+              key = 'Eerste Hoogwater :';
               value += ' hr';
             }
             else if (key === 'HW2') {
-              key = 'Tweede Hoogwater ';
+              key = 'Tweede Hoogwater :';
               value += ' hr';
             }
             else if (key === 'LW1') {
-              key = 'Eerste Laagwater ';
+              key = 'Eerste Laagwater :';
               value += ' hr';
             }
             else if (key === 'LW2') {
-              key = 'Tweede Laagwater ';
+              key = 'Tweede Laagwater :';
               value += ' hr';
             }
             else if (key === 'm TAW') {
-              key = 'HW 1 m TAW ';
+              key = 'HW 1  TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__1') {
-              key = 'LW 1 m TAW ';
+              key = 'LW 1  TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__2') {
-              key = 'HW 2 m TAW ';
+              key = 'HW 2  TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__3') {
-              key = 'LW 2 m TAW ';
+              key = 'LW 2  TAW ';
               value += ' mtr';
             }
             const listItem = document.createElement('li');
-            listItem.textContent = `${key}: ${value}`;
+            listItem.textContent = `${key} ${value}`;
             dataElement.appendChild(listItem);
             dataElement.appendChild(document.createElement('br'));
           }
