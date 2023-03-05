@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
   datePicker.addEventListener('input', function() {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
               value += ' mtr';
             }
             else if (key === 'm TAW__1') {
-              key = 'LW 2 m TAW ';
+              key = 'LW 1 m TAW ';
               value += ' mtr';
             }
             else if (key === 'm TAW__2') {
@@ -61,13 +61,37 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       } else {
-        console.error('Failed to load data from Antwerpen.json');
+        console.error('Failed to load data from wintam23TAW.json');
       }
     };
     xhr.send();
-    console.log(datePicker.value);
   });
+
+  // Set default date to current date
+  const today = new Date();
+  const todayStr = today.toISOString().substr(0, 10);
+  datePicker.value = todayStr;
+
+  // Trigger input event for default date
+  const event = new Event('input');
+  event.simulated = true;
+  datePicker.dispatchEvent(event);
 });
+
+
+
+
+
+
+
+  
+
+
+    
+
+
+
+
 
 
 
