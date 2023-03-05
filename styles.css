@@ -49,7 +49,7 @@ input {
   width: 200px;
   max-width: 300px; /* Add this line to set the maximum width */
   font-size: 18px;
-  height: 38px;
+  min-height: 38px;
   background-color: #fee4de1a;
   color: #333333;
   font-family: 'Armata', sans-serif;
