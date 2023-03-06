@@ -35,6 +35,25 @@ button:hover {
   filter: brightness(150%); /* makes the button 100% grayscale */
 }
 
+.icon-button {
+  background-color: #0077c0; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+}
+
+
 h1 {
   font-size: 40px;
   color: #333333;
