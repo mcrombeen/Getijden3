@@ -49,6 +49,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 5px 5px #bae7ed;
+  
+  }
 
 .fab:hover {
   cursor: pointer;
