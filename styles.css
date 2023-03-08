@@ -50,6 +50,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px 10px #bae7ed;
+  z-index: 0;
   
   }
 
