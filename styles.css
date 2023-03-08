@@ -55,6 +55,7 @@ button:hover {
 }
 
 .material-icons {
+  font-family: 'Armata', sans-serif;
   font-size: 24px;
 }
 
