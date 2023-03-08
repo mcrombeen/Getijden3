@@ -33,6 +33,7 @@ button {
 
 button:hover {
   filter: brightness(150%); /* makes the button 100% grayscale */
+  cursor: pointer;
 }
 
 .fab {
