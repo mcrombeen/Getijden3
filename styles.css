@@ -48,7 +48,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 15px 15px #bae7ed;
+  box-shadow: 0 0 10px 10px #bae7ed;
   
   }
 
@@ -59,7 +59,7 @@ button:hover {
 .material-icons {
   font-family: 'Armata', sans-serif;
   color: #bae7ed;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
