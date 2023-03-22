@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const xhr = new XMLHttpRequest();
   const datePicker = document.getElementById('datepicker');
   datePicker.addEventListener('input', function() {
-    xhr.open('GET', `https://cors-anywhere.herokuapp.com/https://getij.rws.nl/data2023/xml/hwlw-TERNZN-20230101-20231231.xml`);
+    xhr.open('GET', `https://raw.githubusercontent.com/mcrombeen/Getijden3/main/hwlw-TERNZN-20230101-20231231.xml`);
     xhr.onload = function() {
       if (xhr.status === 200) {
         const parser = new DOMParser();
